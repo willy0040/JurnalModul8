@@ -4,8 +4,10 @@ int l = 1;
 int tingkat = 10;
 int n = 12/2;
 for(int i=1;i<=n;i++){
-for(int k=n;k>i;k--){
-System.out.print(" ");
+ 
+ for(int k=n;k>i;k--){
+ System.out.print(" ");
+  
 }
 for(int j=1;j<=l;j++){
 System.out.print("+");
